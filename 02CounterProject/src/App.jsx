@@ -11,6 +11,7 @@ function App() {
   const removeValue = () => {
     if(counter<1){
       counter = 1;
+      alert("Number reached to 0")
     }
     else{
     setcounter(counter-1);
